@@ -125,6 +125,7 @@ This function resolves a modal instance object.
 
 - `.show()`: same as `BrowserWindow#show()`
 - `.hide()`: same as `BrowserWindow#hide()`
+- `.close()`: same as `BrowserWindow#close()`
 - `.isVisible()`: same as `BrowserWindow#isVisible()`
 
 ##### Instance events
@@ -147,6 +148,10 @@ ready, you call this function.
 #### `void modal.hide()`
 
 Hide the current modal window.
+
+#### `void modal.close()`
+
+Close the current modal window.
 
 #### `Boolean modal.isVisible()`
 
